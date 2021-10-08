@@ -46,8 +46,8 @@ public class ForgotPasswordServlet extends HttpServlet {
 				request.setAttribute("error", "Email are incorrect");
 			}else {
 				Email email=new Email();
-				email.setFrom("caodo200184@gmail.com");
-				email.setFromPassword("d@200195");
+				email.setFrom("@gmail.com");
+				email.setFromPassword("");
 				email.setTo(emailAddress);
 				email.setSubject("Forgot password");
 				StringBuilder sb = new StringBuilder();
